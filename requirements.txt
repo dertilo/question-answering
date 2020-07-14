@@ -1,0 +1,1 @@
+esutil@git+https://git@github.com/dertilo/elasticsearching.git#egg=esutil
