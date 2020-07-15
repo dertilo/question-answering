@@ -18,7 +18,7 @@ reader = FARMReader(model_name_or_path="deepset/roberta-base-squad2", use_gpu=Fa
 finder = Finder(reader, retriever)
 
 prediction = finder.get_answers(
-    question="Who is the father of Angela Merkel?", top_k_retriever=10, top_k_reader=5
+    question="What is the capital of Germany?", top_k_retriever=10, top_k_reader=5
 )
 
 
